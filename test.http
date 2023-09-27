@@ -1,0 +1,6 @@
+@root=http://localhost:4004/dev-challenge
+
+POST {{root}}/Tests(ID=0b97f374-1582-4181-92b0-ac374ce53c22,IsActiveEntity=true)/DevChallengeService.assignQuestionsToTest
+Content-Type: application/json 
+
+{"questionsCount":5}
