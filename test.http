@@ -4,3 +4,14 @@ POST {{root}}/Tests(ID=0b97f374-1582-4181-92b0-ac374ce53c22,IsActiveEntity=true)
 Content-Type: application/json 
 
 {"questionsCount":5}
+
+###
+
+GET {{root}}/Tests(ID=0b97f374-1582-4181-92b0-ac374ce53c22,IsActiveEntity=true)?$expand=questions
+
+###
+GET {{root}}/$metadata
+
+###
+GET {{root}}/Questions
+
